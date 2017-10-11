@@ -1,0 +1,21 @@
+{
+  "name": "google-app-engine-nodejs-starter",
+  "description": "Google App Engine NodeJS Starter Application",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Karhtik Divi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karthikdivi/Google-App-Engine-NodeJS-Starter.git"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.15.4"
+  }
+}
