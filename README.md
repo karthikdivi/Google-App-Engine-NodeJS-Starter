@@ -14,3 +14,5 @@ npm start
 ```
 npm run deploy
 ```
+
+Note: If you haven't authenticated your account with gcloud SDK please run gcloud init first
